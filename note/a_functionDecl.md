@@ -1,6 +1,6 @@
 # FunctionDecl
 
-## Check if tis function or method
+## Check function type
 
 ```cpp
 auto md = Results.Nodes.getNodeAs<clang::FunctionDecl>("x");
