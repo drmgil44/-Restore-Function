@@ -4,8 +4,6 @@
 
 using namespace std;
 
-class string;
-
 int g1 = 1;
 int g2 = 2;
 
@@ -33,7 +31,7 @@ class TestB{
 
 int test1(int *b, int c[3], double d[]){
     c[0] = 1;
-    return a;
+    return 1;
 }
 
 void test2(bool a, char b, short c, int d, long e, long long e2, float f, double g, long double h){

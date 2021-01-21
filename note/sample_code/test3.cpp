@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
-class string;
+
 using namespace std;
 
 int g1 = 1;
