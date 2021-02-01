@@ -8,8 +8,8 @@ int g1 = 1;
 int g2 = 2;
 
 class TestA {
-    int i;
-    int j;
+    int i1;
+    string s1;
     int aFunc1(){
         return 1;
     }
@@ -19,16 +19,19 @@ class TestA {
 };
 
 class TestB{
-    double p;
-    double q;
-    void bFunc1(char c, int x, string s){
-        s = "hel";
+    char c2;
+    double d2;
+    TestA a2;
+    void bFunc1(char x, double y, TestA z){
+        c2 = x;
+        d2 = y;
+        a2 = z;
     }
 };
 
-int test1(int a, int *b, int c[3], double d[]){
+int test1(int *b, int c[3], double d[]){
     c[0] = 1;
-    return a;
+    return 1;
 }
 
 void test2(bool a, char b, short c, int d, long e, long long e2, float f, double g, long double h){

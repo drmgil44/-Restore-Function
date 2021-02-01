@@ -1,4 +1,4 @@
-# FunctionDecl - Parameter1
+# FunctionDecl - Parameter Name
 
 ```cpp
 void methodDecl(const FunctionDecl *md){
